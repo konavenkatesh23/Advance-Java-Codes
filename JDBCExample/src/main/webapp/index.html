@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JDBC CRUD Example</title>
+</head>
+<body>
+    <h2>Insert Student</h2>
+    <form action="insert" method="post">
+        Name: <input type="text" name="name" required><br>
+        Email: <input type="email" name="email" required><br>
+        <input type="submit" value="Insert">
+    </form>
+
+    <h2>Update Student</h2>
+    <form action="update" method="post">
+        ID: <input type="number" name="id" required><br>
+        New Email: <input type="email" name="email" required><br>
+        <input type="submit" value="Update">
+    </form>
+
+    <h2>Delete Student</h2>
+    <form action="delete" method="post">
+        ID: <input type="number" name="id" required><br>
+        <input type="submit" value="Delete">
+    </form>
+</body>
+</html>
